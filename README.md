@@ -1,5 +1,7 @@
 # Maze Escape
+![Screenshot 2024-11-20 114028](https://github.com/user-attachments/assets/958ad2e2-9b33-4ae5-993e-f0d119de5af5)
 ## Introduction
+
 Maze Escape is a browser-based maze game where players navigate through a randomly generated maze to reach the exit while avoiding an enemy. The maze is generated using the Recursive Backtracker algorithm, ensuring that each maze is solvable and unique.
 
 ## Features
