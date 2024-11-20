@@ -1,0 +1,68 @@
+body {
+        font-family: 'Trebuchet MS', sans-serif;
+        background: linear-gradient(135deg, #0b3d91, #000428);
+        color: #f3d19c;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin: 20px 0;
+        text-shadow: 2px 2px 5px #000;
+    }
+    
+    #controls {
+        margin: 20px;
+    }
+    
+    #maze-container {
+        display: grid;
+        justify-content: center;
+        gap: 2px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .tile {
+        width: 30px;
+        height: 30px;
+        box-sizing: border-box;
+        border: 1px solid #333;
+        transition: background-color 0.2s;
+    }
+    
+    .wall {
+        background-color: #333;
+    }
+    
+    .path {
+        background-color: #1a2a3a;
+    }
+    
+    .player {
+        background-color: #1e90ff;
+        box-shadow: 0 0 10px #1e90ff;
+    }
+    
+    .exit {
+        background-color: #28a745;
+        box-shadow: 0 0 10px #28a745;
+    }
+    
+    .enemy {
+        background-color: #dc3545;
+        box-shadow: 0 0 10px #dc3545;
+    }
+    
+    #status {
+        font-size: 1.2em;
+        margin: 10px;
+    }
+    
+    #timer {
+        font-size: 1.2em;
+        margin: 10px;
+    }
+    
